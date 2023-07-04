@@ -30,6 +30,12 @@
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
 
+#li:hover {
+    box-shadow: rgb(255, 0, 0) 0px 25px 20px -20px;
+    transition: all 250ms smooth;                                               
+}
+
+
 * {
     --body-font: "Work Sans", Helvetica, Arial, sans-serif;
     --title-font: "Bebas Neue", Helvetica, Arial, sans-serif;
